@@ -40,6 +40,7 @@
     <Button
         android:layout_marginTop="12dp"
         android:layout_width="180dp"
+        android:id="@+id/btnsign"
         android:layout_height="wrap_content"
         android:text="Đăng Nhập"
         android:textColor="#ffff"
