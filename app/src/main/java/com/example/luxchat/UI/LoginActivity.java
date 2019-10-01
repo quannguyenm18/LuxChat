@@ -13,6 +13,8 @@ import com.example.luxchat.R;
 
 public class LoginActivity extends AppCompatActivity {
     Button btnsignin;
+    View view;
+
     ActionBar actionBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         btnsignin = findViewById(R.id.btnsign);
         actionBar = getSupportActionBar();
+        view=this.getWindow().getDecorView();
+        view.setBackgroundResource(R.color.whiled);
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#becff1")));
         btnsignin.setOnClickListener(new View.OnClickListener() {
             @Override
