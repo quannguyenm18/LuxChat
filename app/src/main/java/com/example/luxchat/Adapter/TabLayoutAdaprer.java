@@ -43,9 +43,6 @@ public class TabLayoutAdaprer extends FragmentStatePagerAdapter {
         return listTittle.length;
     }
 
-    @Nullable
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return listTittle[position];
-    }
+
+
 }
