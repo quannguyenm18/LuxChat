@@ -33,4 +33,10 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void SigUp(View view) {
+        Intent intent
+                = new Intent(LoginActivity.this,SigUpActivity.class);
+        startActivity(intent);
+    }
 }
