@@ -18,7 +18,7 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:hint="Tên tài khoản hoặc Email"
+            android:hint="Số điện thoại hoặc Email"
 
         />
     </android.support.design.widget.TextInputLayout>
@@ -26,7 +26,7 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        app:counterMaxLength="8"
+
 
         app:counterEnabled="true"
         >
