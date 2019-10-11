@@ -18,7 +18,8 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:hint="Tên tài khoản hoặc Email"
+            android:id="@+id/edtemail"
+            android:hint="Số Điện Thoại Hoặc Email"
 
         />
     </android.support.design.widget.TextInputLayout>
@@ -33,6 +34,8 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:hint="Mật khẩu"
+            android:id="@id/edtpass"
+            android:inputType="textPassword"
 
         />
     </android.support.design.widget.TextInputLayout>5
@@ -90,5 +93,5 @@
         android:text="Đăng kí tài khoản"
         android:onClick="SigUp"
         android:textColor="#ffff"
-        android:background="@drawable/button_radius2"/>
+        android:background="@drawable/buttonshape"/>
 </LinearLayout>

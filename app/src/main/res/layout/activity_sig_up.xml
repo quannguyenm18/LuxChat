@@ -14,60 +14,60 @@
         android:text="Tạo Tài Khoản"
         android:textColor="#0A0A0A"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/edtTenDN"
+        app:layout_constraintBottom_toTopOf="@+id/edtemail"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.547"
         tools:layout_editor_absoluteX="0dp" />
 
     <EditText
-        android:id="@+id/edtNguoidung"
+        android:id="@+id/edtUser"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint=" Tên Người Dùng"
-        app:layout_constraintBottom_toTopOf="@+id/edtmatkhau"
+        app:layout_constraintBottom_toTopOf="@+id/edtpass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/edtmatkhau"
+        android:id="@+id/edtpass"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="Mật Khẩu"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/edtnhaplaiMk"
+        app:layout_constraintBottom_toTopOf="@+id/edtRepass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/edtnhaplaiMk"
+        android:id="@+id/edtRepass"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:hint="Nhập Lại Mật Khẩu"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btnsingup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/edtTenDN"
+        android:id="@+id/edtemail"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="Số Điện Thoại Hoặc Email"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/edtNguoidung"
+
+        app:layout_constraintBottom_toTopOf="@+id/edtUser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnsingup"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="108dp"

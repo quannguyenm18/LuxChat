@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "744822227940",
+    "firebase_url": "https://appchat-b4b4e.firebaseio.com",
+    "project_id": "appchat-b4b4e",
+    "storage_bucket": "appchat-b4b4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744822227940:android:d1581374a1435fb2b33df1",
+        "android_client_info": {
+          "package_name": "com.example.luxchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744822227940-ks0nm9um45s2fi9eo0mcr8fo7tn1uls4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luxchat",
+            "certificate_hash": "91378a29afb4e2dc9550a0c70877a5415ce58bcf"
+          }
+        },
+        {
+          "client_id": "744822227940-260alh8ppil073ng0hovjqftm74r3inj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaS4ri37NovKefF-UGOQADOKAkoBfbkbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744822227940-260alh8ppil073ng0hovjqftm74r3inj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
