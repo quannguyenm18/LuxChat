@@ -19,7 +19,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:id="@+id/edtemail"
-            android:hint="Số Điện Thoại Hoặc Email"
+            android:hint="Email"
 
         />
     </android.support.design.widget.TextInputLayout>

@@ -44,19 +44,35 @@ public class SigUpActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String txt_username = edtUser.getText().toString();
-                String txt_password= edtpass.getText().toString();
-                String  txt_email= edtemail.getText().toString();
-
-                if (TextUtils.isEmpty(txt_username)|| TextUtils.isEmpty(txt_password) ||TextUtils.isEmpty(txt_email) ){
-                    Toast.makeText(SigUpActivity.this,"vui lòng nhập đủ",Toast.LENGTH_SHORT).show();
-
+                String txt_username = edtUser.getText().toString().trim();
+                String txt_password= edtpass.getText().toString().trim();
+                String  txt_email= edtemail.getText().toString().trim();
+                String txt_repass=edtRepass.getText().toString().trim();
+                String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
 
-                }else {
+
+
+
+                if (TextUtils.isEmpty(txt_username)|| TextUtils.isEmpty(txt_password) ||TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_repass) ) {
+                    Toast.makeText(SigUpActivity.this, "vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+
+
+                } else if (txt_password.length() <6) {
+                    Toast.makeText(SigUpActivity.this, "Mật Khẩu Phải Nhiều Hơn 6 Kí Tự", Toast.LENGTH_SHORT).show();
+
+                }else if (!txt_password.equals(txt_repass)  ){
+                    edtRepass.setError("Mật khẩu bạn nhập chưa trùng khớp");
+                } else   if(txt_email.matches(emailPattern)){
 
                     sigup(txt_username,txt_password,txt_email);
+                }else  {
+
+                    edtemail.setError("Email Không Hợp lệ");
+
                 }
+
+
 
             }
         });
@@ -107,7 +123,7 @@ public class SigUpActivity extends AppCompatActivity {
 
                 }else {
 
-                    Toast.makeText(SigUpActivity.this,"Vui Lòng Nhập Lại Thông Tin",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SigUpActivity.this,"Error",Toast.LENGTH_SHORT).show();
                 }
 
             }
