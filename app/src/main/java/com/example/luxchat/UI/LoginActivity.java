@@ -93,4 +93,10 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(it);
 
     }
+
+    public void ResetPass(View view) {
+        Intent it= new Intent(LoginActivity.this,ResetPassActivity.class);
+        startActivity(it);
+
+    }
 }

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LuxChat</string>
+    <string name="textFogot">Vui Lòng Nhập Email Của Bạn Và Bấm Vào
+        Nút Reset Để Gửi Yêu Cầu Reset Mật Khẩu</string>
 </resources>
