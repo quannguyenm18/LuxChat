@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UI.ResetPassActivity"></activity>
+        <activity android:name=".UI.UserActivity"></activity>
+        <activity android:name=".UI.MeesageActivity" />
+        <activity android:name=".UI.ResetPassActivity" />
         <activity android:name=".UI.LoginActivity" />
         <activity android:name=".UI.SigUpActivity" />
         <activity android:name=".UI.HomeActivity" />
